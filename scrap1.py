@@ -7,8 +7,8 @@ from twilio.rest import Client
 #using email alerts disbanded for security reasons
 #forced to use text message alerts, via twilio
 
-account_sid = "AC51c588ffb317b1b8079ba54247ec94ef"
-auth_token = "3e6d946598e4bd376f5f0d4364adb983"
+account_sid = "insert account_sid as obtained from twilio"
+auth_token = "insert auth_token as obtained from twilio"
 
 client = Client(account_sid, auth_token)
 string1='<a class="button button--quidel button--round-s center-block">Buy Tickets <br/> <span class="button-inner-text center-block">Coming soon</span></a>'
